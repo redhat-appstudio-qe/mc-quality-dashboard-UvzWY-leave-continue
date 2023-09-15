@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: backend-quality-dashboard-ej4e
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-fdsj-tenant/mc-quality-dashboard/backend-quality-dashboard-ej4e@sha256:5f0a020efd2626f51691755dc720985234791e4d1b4ff4b7b0226ee1aaf74ce0
+        name: container-image
+        resources: {}
+status: {}
